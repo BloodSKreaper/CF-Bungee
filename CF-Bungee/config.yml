@@ -1,0 +1,27 @@
+mainteance:
+  enabled: false
+  versionstring: 0815Wartung
+  motd: '&5Derzeit werden Wartungsarbeiten durchgeführt! /nSchau auf Twitter für
+    mehr Infos vorbei!/n&bhttps://twitter.com/0815Craft'
+  playerinfomessage:
+  - Derzeit werden Wartungsarbeiten
+  - durchgeführt. Diese dauern voraussichtlich
+  - bis XX.XX.XXXX an.
+  - Mehr Infos gibt es auf Twitter unter
+  - '&bhttps://twitter.com/0815Craft'
+  kickmessage: Derzeit werden Wartungsarbeiten durchgeführt! /nSchau auf Twitter
+    für mehr Infos vorbei!/n&bhttps://twitter.com/0815Craft
+  whitelist:
+  - a69a3798-c7a4-40ba-a072-8b360aecfebe
+  - f680df9b-ac5c-4d3f-9bac-75bc0e316afa
+motd: 0815Craft - der einzigartigste Server der Welt!
+wrongversionkick: Sorry, aber du spielst mit der falschen Version für den Server.
+protocolversion: 340
+versionstring: "0815Craft Proxy"
+playerinfomessage:
+- Viele tolle einzigartige Features
+- 1. Blöcke
+- 2. Monster
+- 3. Tiere
+- 4. Villager-Dörfer
+fallbackserver: "einfuehrung"

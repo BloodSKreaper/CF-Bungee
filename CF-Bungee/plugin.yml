@@ -1,0 +1,11 @@
+name: CF-Bungee
+main: me.chrisochs.redirect.Main
+version: 1
+author: bloodskreaper
+command:
+  wartung:
+    description: null
+  whitelist:
+    description: null
+  reload:
+    description: null
