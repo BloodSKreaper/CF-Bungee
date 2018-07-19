@@ -1,5 +1,5 @@
 package me.chrisochs.redirect.messaging;
 
-public class OutGoindPluginChannel {
+public class OutGoingPluginChannel {
 
 }

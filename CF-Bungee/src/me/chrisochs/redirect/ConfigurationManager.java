@@ -28,10 +28,9 @@ public class ConfigurationManager {
 	}
 
 	public void loadConfigFile(File datafolder) {
-		File folder = datafolder;
-		if (!folder.exists())
-			folder.mkdir();
-		configFile = new File(folder, "config.yml");
+		if (!datafolder.exists())
+			datafolder.mkdir();
+		configFile = new File(datafolder, "config.yml");
 		if (!configFile.exists()) {
 			try {
 				configFile.createNewFile();
