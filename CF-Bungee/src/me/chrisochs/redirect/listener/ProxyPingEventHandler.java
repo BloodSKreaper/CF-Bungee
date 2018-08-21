@@ -69,7 +69,8 @@ public class ProxyPingEventHandler implements Listener {
 		playerinfomessage = ChatColor.translateAlternateColorCodes('&', playerinfomessage);
 		PlayerInfo regular = new PlayerInfo(playerinfomessage, "");
 		PlayerInfo[] info = new PlayerInfo[] { regular };
-		Players players = new Players(main.getProxy().getConfigurationAdapter().getListeners().iterator().next().getMaxPlayers(),
+		Players players = new Players(
+				main.getProxy().getConfigurationAdapter().getListeners().iterator().next().getMaxPlayers(),
 				main.getProxy().getOnlineCount(), info);
 		answer.setPlayers(players);
 		answer.setVersion(new ServerPing.Protocol(versionstring, protocolversion));

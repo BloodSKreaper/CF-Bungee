@@ -11,11 +11,13 @@ public class PlayerDisconnectEventHandler implements Listener {
 	public PlayerDisconnectEventHandler(Main m) {
 		main = m;
 	}
-	
+
 	@EventHandler
 	public void onPlayerDisconnectEvent(PlayerDisconnectEvent e) {
-		System.out.println(e.getPlayer().getServer().getInfo().getName());
-			main.getLocManager().addLocation(e.getPlayer().getUniqueId(), e.getPlayer().getServer().getInfo().getName());
+		if (e.getPlayer().getServer() != null) {
+			main.getLocManager().addLocation(e.getPlayer().getUniqueId(),
+					e.getPlayer().getServer().getInfo().getName());
+		}
 	}
 
 }
