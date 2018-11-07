@@ -48,7 +48,6 @@ public class LocationManager {
 			try {
 				configFile.createNewFile();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}

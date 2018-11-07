@@ -24,4 +24,6 @@ playerinfomessage:
 - 2. Monster
 - 3. Tiere
 - 4. Villager-Dörfer
+showPlayersOnList: true;
 fallbackserver: "einfuehrung"
+maxplayers: 30
